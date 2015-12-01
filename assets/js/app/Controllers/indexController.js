@@ -14,6 +14,7 @@
 		 * Public Functions
 		 * */
 		$scope.sendRequest = function () {
+			//construct the json object
 			var data = {
 				"FirstName": $scope.FirstName,
 				"LastName":$scope.LastName,
