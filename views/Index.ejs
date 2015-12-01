@@ -1,0 +1,318 @@
+<!-- Start Header -->
+<header id="header">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="logo">
+          <a href="#"><img src="/images/tec2fly.png" alt="logo" class="img-responsive"></a>
+          <span class="phone"><i class="fa fa-phone"></i> +1 787 935 4454</span>
+        </div>
+        <div class="navigation">
+          <nav>
+            <ul class="custom-list list-inline">
+              <li><a href="#hero">Home</a></li>
+              <li><a href="#tour">Tour</a></li>
+              <li><a href="#products">Products</a></li>
+              <li><a href="#faq">FAQ</a></li>
+              <li><a href="#hero" class="btn btn-red">Portal Login</a></li>
+            </ul>
+          </nav>
+          <i class="fa fa-list toggleMenu"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<!-- End Header -->
+
+<!-- Start Hero -->
+<section id="hero" ng-controller="indexController">
+  <div id="gradient"></div>
+  <div class="container">
+    <div class="row">
+      <div class="hero-text">
+        <div class="col-md-6">
+          <h3 class="title">ARE YOU READY FOR TAKE OFF?</h3>
+          <p class="lead">
+            eBusiness, eHealth, Document Scanning, POS and Cloud Solutions
+          </p>
+          <ul class="features-list custom-list">
+            <li><i class="fa fa-check"></i><span>MERCHANT TRANSACTIONS</span></li>
+            <li><i class="fa fa-check"></i><span>DOCUMENT SCANNING</span></li>
+            <li><i class="fa fa-check"></i><span>CLOUD INFRASTRUCTURE</span></li>
+            <li><i class="fa fa-check"></i><span>MOBILE POS SYSTEMS</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-5 col-md-offset-1">
+        <div class="hero-form">
+          <form class="default-form" novalidate>
+            <h3 class="form-title">Learn More!</h3>
+            <div class="field">
+              <input type="text" name="FirstName" ng-model="FirstName" placeholder="First Name" required>
+              <i class="fa fa-user"></i>
+            </div>
+            <div class="field">
+              <input type="text" name="LastName" ng-model="LastName" placeholder="Last Name" required>
+              <i class="fa fa-user"></i>
+            </div>
+            <div class="field">
+              <input type="email" name="email" ng-model="Email" placeholder="Your Email" required>
+              <i class="fa fa-envelope"></i>
+            </div>
+            <!--<div class="field">
+              <input type="email" name="ConfirmEmail" ng-model="ConfirmEmail" placeholder="Confirm Email" required>
+              <i class="fa fa-key"></i>
+            </div>-->
+            <div class="field">
+              <button class="btn btn-red" ng-click="sendRequest()">Sign Up</button>
+            </div>
+            <span class="declaration"> We do not sell or share your information with anyone else. We hate spam, you can trust us. </span>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Hero -->
+
+<!-- Start Tour -->
+<section id="tour">
+  
+  <div class="part first-part">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="preamble text-left">
+            <h3>Section 1</h3>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero vero aspernatur rem quam, deserunt eum maxime.</p>
+          </div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint nulla facilis voluptatem delectus alias officia iure, animi facere excepturi quibusdam, dolore aut quos impedit, ab optio molestiae esse hic ducimus.</p>
+          <ul class="features-list custom-list">
+            <li><i class="fa fa-check"></i><span>Feature 1</span></li>
+            <li><i class="fa fa-check"></i><span>Feature 2</span></li>
+            <li><i class="fa fa-check"></i><span>Feature 3</span></li>
+            <li><i class="fa fa-check"></i><span>Feature 4</span></li>
+            <li><i class="fa fa-check"></i><span>Feature 5</span></li>
+            <li><i class="fa fa-check"></i><span>Feature 6</span></li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <img src="/images/tour-1.jpg" alt="" class="img-responsive">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="part second-part gray-bg">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="/images/tour-2.jpg" alt="" class="img-responsive">
+        </div>
+        <div class="col-md-6">
+          <div class="preamble text-left">
+            <h3>Section2</h3>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero vero aspernatur rem quam, deserunt eum maxime.</p>
+          </div>
+          <div class="quotes">
+            <div class="quote-single">
+              <blockquote>
+                "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit distinctio cupiditate repellendus quod perferendis molestiae ea, accusamus, et autem. Porro quisquam earum libero."
+                <div class="clearfix"></div>
+                <h5>John Doe</h5>
+                <ul class="rate custom-list list-inline">
+                  <li><i class="fa fa-star"></i></li>
+                  <li><i class="fa fa-star"></i></li>
+                  <li><i class="fa fa-star"></i></li>
+                  <li><i class="fa fa-star"></i></li>
+                  <li><i class="fa fa-star"></i></li>
+                </ul>
+              </blockquote>
+            </div>
+            <div class="quote-single">
+              <blockquote>
+                "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit distinctio cupiditate repellendus quod perferendis molestiae ea, accusamus, et autem. Porro quisquam earum libero."
+                <div class="clearfix"></div>
+                <h5>Veronica Wirrol</h5>
+                <ul class="rate custom-list list-inline">
+                  <li><i class="fa fa-star"></i></li>
+                  <li><i class="fa fa-star"></i></li>
+                  <li><i class="fa fa-star"></i></li>
+                  <li><i class="fa fa-star"></i></li>
+                  <li><i class="fa fa-star"></i></li>
+                </ul>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Tour -->
+
+<!-- Start About -->
+<section id="products">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2 preamble">
+        <h3>Our Products</h3>
+        <p class="lead">We offer many products and services</p>
+      </div>
+      <div class="col-md-4 person">
+        <img src="/images/tec2pay.jpg" alt="" class="img-responsive">
+        <h4>TEC2PAY</h4>
+        <p>Designed and developed a Point of Sales software certified for security and Tax purpose by the Treasury Department of Puerto Rico and with the ATM Transaction Network of Puerto Rico for transactions access to all bank (ATH, VISA, Master Card, American Express and ACH) Designed and developed integrations for onsite store transactions with third party accounting and sales software, e-commerce and e-business.</p>
+      </div>
+      <div class="col-md-4 person">
+        <img src="/images/tec2scan.jpg" alt="" class="img-responsive">
+        <h4>TEC2SCAN</h4>
+        <p>Designed, developed, directed and code with our development team a scanning software with multiple category index templates, databases, reports and a registration license control application. Benchmark this product with the top leading brands in the industry and achieved a highly competitive product at a fraction of the cost with automatic installation and configuration controls.</p>
+      </div>
+      <div class="col-md-4 person">
+        <img src="/images/cloud.jpg" alt="" class="img-responsive">
+        <h4>AZURE SOLUTIONS</h4>
+        <p>Our cloud solutions are based on the Microsoft Azure Platform and Infrastructure as a service model to create operational architectures that comply with the highest standards and the security requirements for critical data management, disaster recovery and business continuity at a fraction of the cost of having a physical infrastructure.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End About -->
+
+ <!--Start Features 
+<section id="features">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2 preamble">
+        <h3>Our Features</h3>
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum possimus id enim nam reprehenderit iusto a quisquam.</p>
+      </div>
+      <div class="col-md-6 feature">
+        <div class="feature-icon">
+          <i class="fa fa-map-o fa-4x"></i>
+        </div>
+        <div class="feature-content">
+          <h4>Fully Responsive Design</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, a dolorum, beatae perspiciatis non veniam fugiat molestias veritatis ipsum quis, magnam ipsa quibusdam illo alias autem esse saepe blanditiis sint.</p>
+        </div>
+      </div>
+      <div class="col-md-6 feature">
+        <div class="feature-icon">
+          <i class="fa fa-diamond fa-4x"></i>
+        </div>
+        <div class="feature-content">
+          <h4>Support 24 / 7 for Free!</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, a dolorum, beatae perspiciatis non veniam fugiat molestias veritatis ipsum quis, magnam ipsa quibusdam illo alias autem esse saepe blanditiis sint.</p>
+        </div>
+      </div>
+      <div class="col-md-6 feature">
+        <div class="feature-icon">
+          <i class="fa fa-calendar-plus-o fa-4x"></i>
+        </div>
+        <div class="feature-content">
+          <h4>Working Contact Form</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, a dolorum, beatae perspiciatis non veniam fugiat molestias veritatis ipsum quis, magnam ipsa quibusdam illo alias autem esse saepe blanditiis sint.</p>
+        </div>
+      </div>
+      <div class="col-md-6 feature">
+        <div class="feature-icon">
+          <i class="fa fa-comments-o fa-4x"></i>
+        </div>
+        <div class="feature-content">
+          <h4>Clean and lightweight code</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, a dolorum, beatae perspiciatis non veniam fugiat molestias veritatis ipsum quis, magnam ipsa quibusdam illo alias autem esse saepe blanditiis sint.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>-->
+<!-- End Features -->
+
+<!-- Start FAQ -->
+<section id="faq">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2 preamble">
+        <h3>FAQ</h3>
+        <p class="lead">You might be asking yourself</p>
+      </div>
+      <div class="col-md-6">
+        <div class="question">
+          <i class="fa fa-comment"></i><h4 class="title">Does the Mobile POS accept debit cards?</h4>
+          <p>Yes, we are certified by Evertec to process in the ATH Network</p>
+        </div>
+        <div class="question">
+          <i class="fa fa-comment"></i><h4 class="title">What Platforms do you support?</h4>
+          <p>We currently have our open beta in Windows 10 Platform but will soon support iOS and Android as well.</p>
+        </div>
+        <div class="question">
+          <i class="fa fa-comment"></i><h4 class="title">Do you support integration with EHR in Puerto Rico?</h4>
+          <p>Yes, we currently offer integration with InfoMedica and NeoMed.</p>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="question">
+          <i class="fa fa-comment"></i><h4 class="title">How secured is this?</h4>
+          <p>We have the POS running in Hospitals and Offices already in Puerto Rico running many transactions daily</p>
+        </div>
+        <div class="question">
+          <i class="fa fa-comment"></i><h4 class="title">Does Tec2Scan require server instalation?</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione doloremque quidem deserunt aperiam qui molestias officiis nisi ut aspernatur aliquam eveniet, porro eius iure eligendi laboriosam dolores, nobis sunt consectetur?</p>
+        </div>
+        <div class="question">
+          <i class="fa fa-comment"></i><h4 class="title">Does these products comply with all medical regulation?</h4>
+          <p>Yes, we comply with all of them.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End FAQ -->
+
+<!-- Start CTA -->
+<section id="cta">
+  <div class="container">
+    <div class="row">
+      <div class="hero-text">
+        <div class="col-md-10 col-md-offset-1">
+          <h3 class="title">Register for more info!</h3>
+        </div>
+        <div class="col-md-8 col-md-offset-2">
+          <p class="lead">
+            Learn about our new POS for EHR and Doctors
+          </p>
+          <a href="#hero" class="btn btn-red">Register</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End CTA -->
+
+<!-- Start Footer -->
+<footer id="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <ul class="social list-inline">
+          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+          <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+          <li><a href="#"><i class="fa fa-vimeo"></i></a></li>
+        </ul>
+        <!--<ul class="navi list-inline">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Tour</a></li>
+          <li><a href="#">News</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Politic</a></li>
+        </ul>-->
+        <p>Made with <i class="fa fa-heart"></i> in Santurce, Puerto Rico</p>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- End Footer -->
