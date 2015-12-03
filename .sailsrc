@@ -1,5 +1,16 @@
 {
   "generators": {
-    "modules": {}
+    "modules": {
+    "commands": {
+        "deploy": {
+            "module": "sails-deploy-azure"
+        }
+    },
+    "azure": {
+        "sitename": "TEC2WEBSAILS",
+        "username": "YOUR_USER",
+        "password": "YOUR_PASSWORD"
+    }
+}
   }
 }

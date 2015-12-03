@@ -7,6 +7,8 @@
 
 	Service.$inject = ['$q', '$http'];
 	function Service($q, $http) {
+		
+		
 			//Public Exposed Methods
 			
 			this.sendRequest = sendRequest;
@@ -14,6 +16,7 @@
 			
 			////////////////
 			//Private Class Methods
+			
 			function sendRequest(params) {
 				var defer = $q.defer();
 				var option = {};
